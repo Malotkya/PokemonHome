@@ -1,3 +1,4 @@
+import Help from "./Help";
 import exportToExcel from "./ExportExcel";
 import filterList from "./FilterList";
 import findPokemon from "./FindPokemon";
@@ -38,6 +39,10 @@ switch(process.argv[2]){
         downloadHome()
             .then(()=>console.log("Update Complete!"))
             .catch(console.error);
+    break;
+
+    case "help":
+        console.log(Help());
     break;
 
     default:

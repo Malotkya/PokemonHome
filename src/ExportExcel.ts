@@ -1,5 +1,11 @@
 import xlsx, {BuildOptions} from 'node-xlsx';
-import initHome, {getNationalDex, Home} from './Pokemon/Home';
+import initHome, {Home} from './Pokemon/Home';
+
+export const help = {
+    name: "export",
+    args: "[firstBox:number = 1] [target:string = 'export.xlsx']",
+    description: "Exports home information to excel spreadsheet."
+}
 
 const MAX_COLUMNS = 6;
 const MAX_ROWS = 5;
