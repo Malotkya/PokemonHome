@@ -1,0 +1,25 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "Pokemon home tracker",
+  "main": "./bin/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node ./bin/test.js",
+    "export": "node ./bin export",
+    "update": "node ./bin update",
+    "filter": "node ./bin filter",
+    "find": "node ./bin find"
+  },
+  "author": "Alex Malotky",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.11.17",
+    "express": "^4.18.2",
+    "jsdom": "^24.0.0",
+    "node-xlsx": "^0.23.0",
+    "typescript": "^5.3.3"
+  }
+}
