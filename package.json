@@ -8,8 +8,10 @@
     "test": "tsc && node ./bin/test.js",
     "export": "node ./bin export",
     "update": "node ./bin update",
+    "init": "node ./bin update",
     "filter": "node ./bin filter",
-    "find": "node ./bin find"
+    "find": "node ./bin find",
+    "help": "node ./bin help"
   },
   "author": "Alex Malotky",
   "license": "ISC",
