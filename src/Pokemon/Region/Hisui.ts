@@ -21,5 +21,6 @@ export const variants:Array<string> = [
     "Goodra",
     "Avalugg",
     "Decidueye",
+    "Basculin"
 ];
 export const first:string = "Wyrdeer";
